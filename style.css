@@ -1,12 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap');
+
+*{
+margin:0;
+padding:0;
+border:0;
+}
 /*-------Logo and Tittle-------*/
+body{
+  background: #707070;
+}
 
+#logoCon{
+  margin: 10px;
+}
 
+#logo{
+  max-width: 75px;
+  border-radius: 15px;
+  box-shadow: 3px 4px #545454;
+}
 
+#mainTitle{
+  position: absolute;
+  left: 110px;
+  top:15px;
+  font-family: 'Source Code Pro', monospace;
+}
 
+h1{
+  color: #FAFAFF;
+  font-size: 35pt;
+}
 
 /*-------Navigation Bar-------*/
+#menuBar{
+  background-color: #85D2CB;
+  height: 50px;
+  padding-top: 10px;
+  width: auto;
+}
 
+.BTN{
+  text-decoration: none;
+  color: #2d3141;
+  font-size: 20pt;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.BTN:hover{
+  text-decoration: underline;
+  color: #2d3141;
+  font-size: 20pt;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.BTNPage{
+  text-decoration: underline;
+  color: #2d3141;
+  font-size: 20pt;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 
 
@@ -24,4 +81,24 @@
 
 
 
+
 /*-------projects page-------*/
+
+
+
+
+/*-------all pages-------*/
+
+.projectTitle{
+  color: #FAFAFF;
+  font-size: 13pt;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 25px;
+}
+
+p{
+  color:#FAFAFF;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+}
