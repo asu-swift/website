@@ -1,0 +1,50 @@
+@media only screen and (max-width: 700px){
+
+/* Title */
+  #mainTitle{
+    position: absolute;
+    left: 110px;
+    top:15px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25pt;
+  }
+
+/* menu */
+
+  .BTN{
+    text-decoration: none;
+    color: #2d3141;
+    font-size: 15pt;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .BTN:hover{
+    text-decoration: underline;
+    color: #2d3141;
+    font-size: 15pt;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .BTNPage{
+    text-decoration: underline;
+    color: #2d3141;
+    font-size: 15pt;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  #menuBar{
+    background-color: #85D2CB;
+    height: 30px;
+    padding-top: 10px;
+    width: auto;
+  }
+
+
+
+
+
+}

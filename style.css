@@ -7,7 +7,9 @@ border:0;
 }
 /*-------Logo and Tittle-------*/
 body{
-  background: #707070;
+  background-image: url("backgroundShape.png");
+  background-repeat: repeat-y repeat-x;
+
 }
 
 #logoCon{
@@ -62,6 +64,13 @@ h1{
   font-size: 20pt;
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif;
+
+}
+
+.mainCon{
+background: #3f3f74;
+padding: 25px;
+margin:25px;
 
 }
 
